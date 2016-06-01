@@ -13,16 +13,6 @@
         android:textAlignment="center"
         android:background="#ffec73" />
 
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="35dp"
-        android:id="@+id/textPass"
-        android:layout_x="-1dp"
-        android:layout_y="137dp"
-        android:text="PASSWOERD"
-        android:textAlignment="center"
-        android:background="#ffec73" />
-
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -41,4 +31,16 @@
         android:textAlignment="center"
         android:textSize="20dp"
         android:textIsSelectable="false" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/textPass"
+        android:layout_x="0dp"
+        android:layout_y="137dp"
+        android:background="#ffec73"
+        android:text="PASSWORD"
+        android:textAlignment="center" />
 </AbsoluteLayout>

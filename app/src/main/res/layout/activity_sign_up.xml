@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/textFillUser"
+        android:layout_x="-1dp"
+        android:layout_y="45dp"
+        android:background="#ffec73"
+        android:text="USERNAME : A-Z"
+        android:textAlignment="center" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/textFillPass"
+        android:layout_x="1dp"
+        android:layout_y="103dp"
+        android:background="#ffec73"
+        android:text="PASSWORD"
+        android:textAlignment="center" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/textFillPassAgain"
+        android:layout_x="0dp"
+        android:layout_y="159dp"
+        android:background="#ffec73"
+        android:text="PASSWORD AGAIN"
+        android:textAlignment="center" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Agree our condition terms"
+        android:id="@+id/checkBox"
+        android:layout_x="92dp"
+        android:layout_y="222dp"
+        android:checked="false" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:id="@+id/btnSignup"
+        android:layout_x="150dp"
+        android:layout_y="272dp" />
+</AbsoluteLayout>
