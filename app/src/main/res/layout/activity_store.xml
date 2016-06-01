@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cart"
+        android:id="@+id/btnCart"
+        android:layout_x="1dp"
+        android:layout_y="0dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Log Out"
+        android:id="@+id/btnLogout"
+        android:layout_x="295dp"
+        android:layout_y="-1dp" />
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:id="@+id/image1"
+        android:layout_x="0dp"
+        android:layout_y="60dp" />
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:id="@+id/image2"
+        android:layout_x="0dp"
+        android:layout_y="177dp" />
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:id="@+id/image3"
+        android:layout_x="1dp"
+        android:layout_y="296dp" />
+</AbsoluteLayout>

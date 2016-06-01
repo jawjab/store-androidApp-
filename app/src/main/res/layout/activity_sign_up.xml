@@ -43,10 +43,10 @@
         android:checked="false" />
 
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="384dp"
         android:layout_height="wrap_content"
         android:text="Sign Up"
         android:id="@+id/btnSignup"
-        android:layout_x="150dp"
-        android:layout_y="272dp" />
+        android:layout_x="4dp"
+        android:layout_y="274dp" />
 </AbsoluteLayout>
